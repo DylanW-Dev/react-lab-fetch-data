@@ -1,8 +1,9 @@
-# React + Vite
+# Project Overview
+In this lab, I learned how to fetch data in React using a custom hook (UseFetch) and a corresponding component (FetchData). By encapsulating data-fetching logic into reusable hooks, I improved code maintainability. I mastered React’s useState and useEffect hooks for managing state and asynchronous operations efficiently. Additionally, I learned to dynamically render fetched data on the UI with JSX, enabling the creation of dynamic and interactive components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Learning Objectives
+Fetch data from an external API using the fetch API method within a React application
 
-Currently, two official plugins are available:
+Implement a custom React hook (UseFetch) to encapsulate the logic to fetch data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Render the data retrieved from the API onto the UI and display relevant information such as name, importance, benefits, and the best time to intake for each item
